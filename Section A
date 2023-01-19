@@ -1,6 +1,9 @@
 Documentation needs to be clear to give the person reading your code better understanding of your code. Also, there is a difference between "comment" and "documentation". Search "Javadoc" to gain better understanding of documentation
+
 line 6 - Hardcoding doesn't allow your code to be dynamic, it's always best to take in user input instead, unless stated that the data is constant
+
 line 10 - Fibonacci series of numbers is hardcoded, to better gain the Fibonacci sequence without hardcoding since we had stated that hardcoding is not the best practise unless stated to use it, we use a recursive method instead
+
 Line 28 - This function could have worked either way without using a generic type method. But I'm not necesarily saying this is incorrect, it works too
 line 30 - Since we already have maxNumber as a parameter, defining it again causes a duplicate and therefore causing an error in your code. Removing it either as a parameter or as a variable can fix this error.
 
